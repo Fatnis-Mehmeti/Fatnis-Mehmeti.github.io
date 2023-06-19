@@ -1,0 +1,235 @@
+body {
+  font-family: 'open sans-serif'
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  color: #ffff;
+}
+
+h1, h2 {
+  margin: 0;
+  font-family: 'Leckerli One', cursive;
+  text-shadow:none;
+}
+body{
+     font-family:'Open Sans',sans-serif;
+  background-color: white;
+  padding:0;
+  margin:0;
+}
+.footer-clean {
+  padding:50px 0;
+  background-color:white;
+  color:black;
+}
+
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity:1;
+}
+
+.fa {
+  padding: 1%;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: underline wavy green;
+  margin-right: 10px;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.footer-clean .copyright {
+  margin-top:14px;
+  margin-bottom:0;
+  font-size:23px;
+  opacity:0.9;
+}
+
+
+header{
+  background:lightblue;
+  color:#FFDC00;
+  padding-top:30px;
+  min-height: 85px;
+  border-bottom: 1px dotted #DDDDDD;
+  margin-top: -1.7%;
+}
+
+header a{
+  color: #DDDDDD;
+  text-align:left;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 150%}
+
+header li{
+  float:left;
+  display: inline;
+  padding: 0 30px 0 30px;
+  border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;}
+
+header li:hover{
+  transition: 0.6s;
+  background color: #BCD5D1;
+  opacity: 0.9;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius:7px;
+  border-bottom-left-radius: 7px;}
+
+ header li:hover a{
+  transition: 1s;
+  color :black;
+}
+ .divheader{
+  width: 100%;
+    margin:auto;
+    overflow: hidden;}
+header #divH1{
+  min-height: 60px;
+  width: 20px;
+  float: left;
+}
+
+.row {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.intro-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: table;
+  z-index: -1;
+}
+.intro-header:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 90%;
+  z-index: 1;
+}
+.intro-header .bg-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url("https://c4.wallpaperflare.com/wallpaper/302/60/973/eminem-computer-wallpaper-preview.jpg")center center no-repeat;
+  background-size: cover;
+}
+.intro-header .header-content {
+  position: relative;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  z-index: 2;
+}
+
+.content {
+  height: auto;
+  padding: 50px;
+  background: #333;
+  margin-top: 350px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.divheader2{
+  width: 100%;
+    margin:auto;
+    overflow: hidden;
+  }
+
+
+
+ {
+  @import url(https://fonts.googleapis.com/css?family=Merriweather:300,900);
+
+*, *:before, *:after{
+  box-sizing: border-box;
+  font: 300 1em/1.5 'Merriweather', serif; color: #242424;
+  padding: 0;
+  margin: 0;
+}
+
+html, body{background: rgb(236, 240, 241);
+}
+
+.content{
+  width: 450px; 
+  margin: auto;
+  margin-bottom: 350px;
+  padding: 100px 0;
+}
+  h1{
+    color: #111;
+    font-size: 3em;
+    font-weight: 900;
+    padding: 0 0 20px 0;
+  }
+  h2{
+    color: red;
+    font-size: 2em;
+    font-weight: 900;
+    padding: 0 0 15px 0;
+  }
+  
+  p{
+    font-size: 1.25em;
+    padding: 0 0 40px 0;
+  }
